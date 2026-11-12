@@ -27,6 +27,7 @@ import plotly.express as px
 
 CLF_DIR = Path(r"C:\Users\thiag\Documents\CLF")
 REPORTS_DIR = CLF_DIR / "reports"
+DOCS_DIR = CLF_DIR / "docs"
 ASSETS_DIR = REPORTS_DIR / "assets"
 CLUBS_DIR = ASSETS_DIR / "clubs"
 
@@ -1993,4 +1994,11 @@ def generate_interactive_report(
     report_file.write_text(html_content, encoding="utf-8")
     index_file = REPORTS_DIR / "index.html"
     index_file.write_text(html_content, encoding="utf-8")
+
+    # Mirror to docs/ for automatic zero-config GitHub Pages deployment
+    if not DOCS_DIR.exists():
+        DOCS_DIR.mkdir(parents=True, exist_ok=True)
+    (DOCS_DIR / f"inference_{season}_r{target_round}.html").write_text(html_content, encoding="utf-8")
+    (DOCS_DIR / "index.html").write_text(html_content, encoding="utf-8")
+
     return report_file
