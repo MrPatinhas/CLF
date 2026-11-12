@@ -155,3 +155,12 @@ To refit and re-serialize the entire model zoo on latest data:
 ```powershell
 python C:\Users\thiag\Documents\CLF\run_inference.py --retrain
 ```
+
+---
+
+## 4. Live Production Deployment (GitHub Pages)
+
+* **Repository:** [https://github.com/MrPatinhas/CLF](https://github.com/MrPatinhas/CLF)
+* **Live Dashboard (Root / Latest Round):** [https://mrpatinhas.github.io/CLF/](https://mrpatinhas.github.io/CLF/)
+* **Season 2026 Round 35 Full Report:** [https://mrpatinhas.github.io/CLF/inference_2026_r35.html](https://mrpatinhas.github.io/CLF/inference_2026_r35.html)
+* **Single-File Zero-Asset Portability:** All 39 Serie A club crests and the CLT logo are inlined as base64 data URIs. Both `reports/index.html` and `docs/index.html` function completely autonomously with zero external image folder requirements.
