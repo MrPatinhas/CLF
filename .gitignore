@@ -1,0 +1,27 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# OS Artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large Intermediate Feature Stores (Rebuildable via 01_build_feature_store.py in ~11s)
+data/clf_feature_store.parquet
+data/predictions_oof.parquet
+data/team_match_cube.parquet
+
+# Logs & temp
+*.log
+.system_generated/

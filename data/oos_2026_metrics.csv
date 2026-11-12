@@ -1,0 +1,9 @@
+model,RMSE,MAE,Mean_Round_Spearman
+CLF_Meta_Ensemble,3.4813,2.622,0.376
+Positional_LightGBM,3.4851,2.6233,0.3742
+Residual_XGBoost,3.4884,2.6142,0.3675
+Neural_MLP,3.489,2.6538,0.3679
+Decomposed_Hybrid,3.4897,2.6294,0.3717
+Dual_Memory_EB,3.5653,2.6983,0.3186
+Market_Price,3.5669,2.7647,0.3148
+Naive_Roll5,3.7557,2.7848,0.2778

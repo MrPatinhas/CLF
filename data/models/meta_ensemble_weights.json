@@ -1,0 +1,6 @@
+{
+  "Positional_LightGBM": 0.3,
+  "Residual_XGBoost": 0.3,
+  "Decomposed_Hybrid": 0.25,
+  "Neural_MLP": 0.15
+}

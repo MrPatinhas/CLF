@@ -1,0 +1,16 @@
+{
+  "train_seasons": "2014-2024",
+  "val_season": 2025,
+  "feature_count": 104,
+  "trained_at": "2026-11-11 23:06:46",
+  "models": [
+    "Market_Price",
+    "Position_Ridge",
+    "Positional_LightGBM",
+    "Residual_XGBoost",
+    "Decomposed_Hybrid",
+    "Neural_MLP",
+    "Generative_Poisson",
+    "CLF_Meta_Ensemble"
+  ]
+}
