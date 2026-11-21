@@ -25,3 +25,7 @@ data/team_match_cube.parquet
 # Logs & temp
 *.log
 .system_generated/
+
+# Local private research studies & slide preview drafts (uncommitted)
+studies/
+.frontend-slides/
